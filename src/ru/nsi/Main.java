@@ -5,7 +5,7 @@ public class Main {
     private static boolean isPrimeNumber(int number) {
         boolean isPrimeNumber = false;
         int numberOfDivision = 0;
-        if (number == 0 || number == 1) {
+        if (number == 0 || number == 1 || number < 0) {
             return isPrimeNumber;
         } else {
             int mod;
